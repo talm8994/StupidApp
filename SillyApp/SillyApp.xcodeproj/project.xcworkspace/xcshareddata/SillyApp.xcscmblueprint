@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "499DF377815B3F45DBBBB78B22AAC1CFE11C3A2C",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "499DF377815B3F45DBBBB78B22AAC1CFE11C3A2C" : 0,
+    "3B1925851C529CB2ED6A1390516F4571A38E1171" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "7156A213-225B-4AF7-B916-4CE08A0A1C03",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "499DF377815B3F45DBBBB78B22AAC1CFE11C3A2C" : "SillyApp\/",
+    "3B1925851C529CB2ED6A1390516F4571A38E1171" : ""
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "SillyApp",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "SillyApp.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/talm8994\/StupidApp.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "3B1925851C529CB2ED6A1390516F4571A38E1171"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/talm8994\/SillyApp.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "499DF377815B3F45DBBBB78B22AAC1CFE11C3A2C"
+    }
+  ]
+}

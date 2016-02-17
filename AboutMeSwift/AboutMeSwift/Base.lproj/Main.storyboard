@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9531" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="6xT-XC-lFP">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+    </dependencies>
+    <scenes>
+        <!--school-->
+        <scene sceneID="53M-al-uI9">
+            <objects>
+                <viewController title="school" id="W52-Qe-1yo" customClass="SchoolViewController" customModule="AboutMeSwift" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="sn6-yo-iLX"/>
+                        <viewControllerLayoutGuide type="bottom" id="nrf-Gv-tjZ"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="GKN-kD-WvH">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SrB-TA-jSi">
+                                <rect key="frame" x="348" y="686" width="46" height="30"/>
+                                <state key="normal" title="next"/>
+                                <connections>
+                                    <action selector="ToBull:" destination="W52-Qe-1yo" eventType="touchUpInside" id="fFB-oy-nAJ"/>
+                                    <action selector="toComputer:" destination="W52-Qe-1yo" eventType="touchUpInside" id="8Z6-91-wCX"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eDq-Is-STc">
+                                <rect key="frame" x="52" y="28" width="342" height="115"/>
+                                <string key="text">I go to jordan high school and ive been there for three years and its great the people rock and what not also can we stop making these this is boring </string>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Jordan_High_School_Sandy_Utah" translatesAutoresizingMaskIntoConstraints="NO" id="aBX-zQ-JNp">
+                                <rect key="frame" x="20" y="284" width="374" height="340"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.6723427718994518" green="1" blue="0.52604522044674451" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina55"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="presentation" id="Omc-cs-pUq"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="hLg-lw-Lel" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="122" y="624"/>
+        </scene>
+        <!--About me-->
+        <scene sceneID="62O-UW-o5o">
+            <objects>
+                <viewController title="About me" id="6xT-XC-lFP" customClass="AboutMe" customModule="AboutMeSwift" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="ScG-aT-wPe"/>
+                        <viewControllerLayoutGuide type="bottom" id="rEh-xW-URZ"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="jch-gE-sw8">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ral-PL-LMe">
+                                <rect key="frame" x="340" y="686" width="54" height="30"/>
+                                <state key="normal" title="Next"/>
+                                <connections>
+                                    <action selector="toComputer:" destination="6xT-XC-lFP" eventType="touchUpInside" id="gE3-Di-uvN"/>
+                                    <action selector="toFamily:" destination="6xT-XC-lFP" eventType="touchUpInside" id="jm2-5r-qDb"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="About Me " textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OBy-xc-Iwi">
+                                <rect key="frame" x="153" y="28" width="109" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="also this is actually me for real #NOSCAM" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YQp-d8-vao">
+                                <rect key="frame" x="43" y="657" width="329" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="by Thomas Almeida you know the guy in this class that is codeing and suff " textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6s8-Ub-jKw">
+                                <rect key="frame" x="114" y="67" width="187" height="100"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="meActualy" translatesAutoresizingMaskIntoConstraints="NO" id="Ed1-Tt-7Gg">
+                                <rect key="frame" x="20" y="326" width="374" height="313"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="0.35004152552138212" blue="0.47375925134508479" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina55"/>
+                    <connections>
+                        <outlet property="nextPage" destination="Ral-PL-LMe" id="nSK-kH-FsD"/>
+                        <outlet property="toFamily" destination="Ral-PL-LMe" id="z8F-rI-maT"/>
+                        <segue destination="W52-Qe-1yo" kind="presentation" identifier="toSchool" id="Lab-Hy-DPm"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="vMh-Wb-Hkf" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-376" y="624"/>
+        </scene>
+        <!--computer-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController title="computer" id="BYZ-38-t0r" customClass="FamilyViewController" customModule="AboutMeSwift" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dNB-As-4Bu">
+                                <rect key="frame" x="348" y="686" width="46" height="30"/>
+                                <state key="normal" title="Next"/>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="pcCase" translatesAutoresizingMaskIntoConstraints="NO" id="AxW-Ct-AA1">
+                                <rect key="frame" x="20" y="229" width="374" height="440"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cW8-nC-6bg">
+                                <rect key="frame" x="20" y="28" width="374" height="99"/>
+                                <string key="text">I built  my PC  with the help of Trevor and Adam . I used the old parts of Trevor’s PC and Adam’s dad got me windows 7  and I’ve been having fun times ever since </string>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.90401893178246162" green="0.69550965197916281" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina55"/>
+                    <connections>
+                        <segue destination="6D2-pg-4h1" kind="presentation" id="dt7-NH-464"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="122" y="1432"/>
+        </scene>
+        <!--games I play -->
+        <scene sceneID="1bZ-mQ-sjZ">
+            <objects>
+                <viewController title="games I play " id="6D2-pg-4h1" customClass="FunViewController" customModule="AboutMeSwift" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Q6B-jZ-lPW"/>
+                        <viewControllerLayoutGuide type="bottom" id="cnn-oN-JLE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="h3Y-NT-vTW">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Df0-TU-IDh">
+                                <rect key="frame" x="348" y="686" width="46" height="30"/>
+                                <state key="normal" title="home"/>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Eit-YU-xMs">
+                                <rect key="frame" x="20" y="28" width="374" height="126"/>
+                                <string key="text">I like to play video games. I like to play survival games and platformers  I have a wii U  and a gaming PC.  I also like strategy  games like counter strike that I play with Adam and Trevor and w$lee and air the plane  </string>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="csgo" translatesAutoresizingMaskIntoConstraints="NO" id="8Qm-vB-jpk">
+                                <rect key="frame" x="20" y="387" width="374" height="291"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="mc-Items" translatesAutoresizingMaskIntoConstraints="NO" id="AIV-Ks-5Qk">
+                                <rect key="frame" x="20" y="162" width="374" height="197"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="0.57408513411461448" blue="0.44548771683711197" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina55"/>
+                    <connections>
+                        <segue destination="6xT-XC-lFP" kind="presentation" id="MKg-IO-9T9"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Mqg-8s-gD2" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-376" y="1432"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Jordan_High_School_Sandy_Utah" width="414" height="296"/>
+        <image name="csgo" width="300" height="168"/>
+        <image name="mc-Items" width="500" height="313"/>
+        <image name="meActualy" width="2060" height="1236"/>
+        <image name="pcCase" width="550" height="391"/>
+    </resources>
+</document>
